@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ZEUS ARTS</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+		<nav>
+						<img src="logo.png" class="logo">
+			<div class="navbar" id="navBar">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">Shop</a></li>
+					<li><a href="">Gallery</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		</div>	
+		<div class="banner">
+		</div>
+		<div class="main">
+			<div class="left-side-bar">
+			</div>
+			<div class = "content">
+				<h2>About ZEUS ARTS</h2>
+				<p>Since 2018, ZEUS ARTS was established and purposefully designed by the artist Zeus Jalac<br>
+				to showcase various artworks particularly vector and sketches.<br> 
+				Some of the artworks that was displayed in this webpage were based on the artist's choice of model to portray <br> 
+				and others were based on the customer's request as we value their choice of art design and preference as well.<br>
+				ZEUS ARTS is open and available for commission for a variety of artwork projects.</p>
+			</div>
+			<div class="right-side-bar">
+
+	
+			</div>
+		</div>
+		<div class="footer">
+			<p>Email: zeus.jalac03@gmail.com</p>
+
+		</div>
+
+	</div>
+<script>
+	var navBar = document.getElementById("navBar");
+	function showMenu(){
+		navBar.style.right = "0";
+	}	
+	function hideMenu(){
+		navBar.style.right = "-200px";
+	}
+</script>
+</body>
+</html>

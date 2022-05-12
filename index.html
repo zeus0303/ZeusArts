@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+	<div class="wrapper">
+	
+		<div class="header">
+		<nav>
+			<img src="logo.png" class="logo">
+			<div class="navbar" id="navBar">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Shop</a></li>
+					<li><a href="">Gallery</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		</div>	
+		<div class="banner">
+		</div>
+		<div class="main">
+			<div class="left-side-bar">
+				<!<img class="art3" src="images/chlouie.jpg">
+				<!<img class="art4" src="images/delincey.jpg">
+			</div>
+			<div class = "content">
+
+				<h1>ZEUS ARTS</h1>
+				<p>This is my personal website</p>
+				<div>
+					<button type="button"><span></span>VIEW PROFILE</button>
+					<button type="button"><span></span>ART WORKS</button>
+				</div>
+			</div>
+			<div class="right-side-bar">
+				<!<img class="art1" src="images/cs.png">
+				<!<img class="art2" src="images/allysa.jpg">
+
+
+		
+			</div>
+		</div>
+		<div class="footer">
+			<p>Email: zeus.jalac03@gmail.com</p>
+
+		</div>
+
+	</div>
+<script>
+	var navBar = document.getElementById("navBar");
+	function showMenu(){
+		navBar.style.right = "0";
+	}	
+	function hideMenu(){
+		navBar.style.right = "-200px";
+	}
+</script>
+</body>
+</html>
